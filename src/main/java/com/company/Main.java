@@ -86,7 +86,7 @@ public class Main {
 
                 while (Blackjack.gameBegan == false) {
                     if (player1.getPoints() <= 21) {
-                        System.out.println("You win!"){
+                        System.out.println("You win"){
                             player1.getNumberOfWins += 1;
                         }
                     }
