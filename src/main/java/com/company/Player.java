@@ -27,6 +27,10 @@ public class Player {
         points = 0;
     }
 
+    public void increaseWinCount() { //Not sure how this method disappeared or if it was ever there..this will make it easier to increase the win count for the player
+        numberOfWins++;
+    }
+
 
     public void addPoints(int pointsToAdd) {
         points += pointsToAdd;
